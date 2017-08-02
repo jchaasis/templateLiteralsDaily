@@ -1,0 +1,47 @@
+body {
+
+}
+
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  width: 70%;
+  text-align: center;
+  font-family: sans-serif;
+  margin-left: 15%;
+}
+
+.picture{
+  width: 100%;
+}
+
+.name{
+  text-transform:uppercase;
+  font-weight: bold;
+  /*border-bottom: 1px solid green;*/
+  text-decoration:underline green;
+  text-underline-position: under;
+}
+
+.email{
+  text-transform: uppercase;
+  font-weight:200;
+  font-size: 0.8em;
+  color: lightgray;
+}
+
+.address{
+  text-transform:capitalize;
+  color: gray;
+}
+
+.phone{
+  color:gray;
+}
+
+.person{
+  margin:5px;
+  width: 220px;
+}
