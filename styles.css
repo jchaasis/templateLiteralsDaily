@@ -1,8 +1,12 @@
-body {
 
+
+h1{
+  text-align:center;
+  text-transform: uppercase;
+  font-family:sans-serif;
 }
 
-.container{
+main{
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -20,7 +24,6 @@ body {
 .name{
   text-transform:uppercase;
   font-weight: bold;
-  /*border-bottom: 1px solid green;*/
   text-decoration:underline green;
   text-underline-position: under;
 }
@@ -35,6 +38,7 @@ body {
 .address{
   text-transform:capitalize;
   color: gray;
+  font-size: 0.9em;
 }
 
 .phone{
